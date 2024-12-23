@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Login</title>
+    <link rel="shortcut icon" href="w3.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 600px;
+            text-align: center;
+            height: 250px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #a60c61
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            text-decoration: none;
+            background-color: #a60c61;
+            color: #ffff;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background-color: #80757a;
+            color: white;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Email</h1>
+        <h6>
+            Change your password in three easy steps. This helps to keep your new password <br>
+            
+            1.Fill in your email address <br>
+            2.We'll email you a temporary code. <br>
+            3.Use the code to change your password on our secure website.
+        <form action="verification.html" method="GET">
+            <input type="email" placeholder="Email Address" required>
+
+        </form>
+        <i> <a href="fogetpass22.html"class="btn">send code</a></i>
+    </div>
+</body>
+</html>
